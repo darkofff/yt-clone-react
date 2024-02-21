@@ -1,0 +1,38 @@
+
+
+.video {
+  //border: 1px solid red;
+
+  &Container {
+    overflow: hidden;
+    transition: all 0.5s 0.2s ease;
+    border-radius: 1.5rem;
+    margin-bottom: 0.6rem;
+    aspect-ratio: 16/9;
+    //border: 1px solid red;
+    position: relative;
+    &:hover {
+      border-radius: 0;
+      transform: translateY(-1px) scale(1.01);
+    }
+
+    img {
+      width: 100%;
+      //object-fit: contain;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      //background-color: purple;
+    }
+  }
+}
+
+.statsContainer {
+  //border: 1px solid red;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}

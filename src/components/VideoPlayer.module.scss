@@ -1,0 +1,26 @@
+.player-container {
+  //border: 3px solid black;
+  /* max-height: 80vh; */
+}
+.player-container-theater {
+  background-color: black;
+}
+
+.player-wrapper {
+  position: relative;
+  //border: 3px solid red;
+  aspect-ratio: 16/9;
+  max-height: 80vh;
+  margin: 0 auto;
+}
+
+.player-wrapper-default {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

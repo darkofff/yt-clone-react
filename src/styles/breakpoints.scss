@@ -1,0 +1,22 @@
+@mixin media($type) {
+  @if ($type == phone) {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
+  @if ($type == tab-port) {
+    @media (max-width: 900px) {
+      @content;
+    }
+  }
+  @if ($type == tab-land) {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  }
+  @if ($type == big) {
+    @media (min-width: 1800px) {
+      @content;
+    }
+  }
+}

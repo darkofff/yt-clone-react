@@ -1,0 +1,464 @@
+{
+  "items": [
+    {
+      "id": "UExoUWpyQkQyVDM4MHh2RlNVbVRvTU16RVJaM3FCNVVldS5ENDU4Q0M4RDExNzM1Mjcy",
+      "kind": "youtube#playlistItem",
+      "snippet": {
+        "publishedAt": "2020-05-11T15:02:41Z",
+        "channelId": "UCcabW7890RKJzL968QWEykA",
+        "title": "CS50W - Introduction",
+        "description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at https://www.youtube.com/playlist?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu.\n\nThis course picks up where Harvard University's CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience. Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. By semester’s end, students emerge with knowledge and experience in principles, languages, and tools that empower them to design and deploy applications on the Internet.\n\n***\r\n\r\nThis is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.\r\n\r\n***\n\r\nHOW TO SUBSCRIBE\n\nhttp://www.youtube.com/subscription_center?add_user=cs50tv\n\nHOW TO TAKE CS50\n\nedX: https://cs50.edx.org/\nHarvard Extension School: https://cs50.harvard.edu/extension\nHarvard Summer School: https://cs50.harvard.edu/summer\nOpenCourseWare: https://cs50.harvard.edu/x\n\nHOW TO JOIN CS50 COMMUNITIES\n\nDiscord: https://discord.gg/cs50\nEd: https://cs50.harvard.edu/x/ed\nFacebook Group: https://www.facebook.com/groups/cs50/\nFaceboook Page: https://www.facebook.com/cs50/\nGitHub: https://github.com/cs50\nGitter: https://gitter.im/cs50/x\nInstagram: https://instagram.com/cs50\nLinkedIn Group: https://www.linkedin.com/groups/7437240/\nLinkedIn Page: https://www.linkedin.com/school/cs50/\nMedium: https://cs50.medium.com/\nQuora: https://www.quora.com/topic/CS50\nReddit: https://www.reddit.com/r/cs50/\nSlack: https://cs50.edx.org/slack\nSnapchat: https://www.snapchat.com/add/cs50\nSoundCloud: https://soundcloud.com/cs50\nStack Exchange: https://cs50.stackexchange.com/\nTikTok: https://www.tiktok.com/@cs50\nTwitter: https://twitter.com/cs50\nYouTube: http://www.youtube.com/cs50\n\nHOW TO FOLLOW DAVID J. MALAN\n\nFacebook: https://www.facebook.com/dmalan\nGitHub: https://github.com/dmalan\nInstagram: https://www.instagram.com/davidjmalan/\nLinkedIn: https://www.linkedin.com/in/malan/\nQuora: https://www.quora.com/profile/David-J-Malan\nTikTok: https://www.tiktok.com/@davidjmalan\nTwitter: https://twitter.com/davidjmalan\n\n***\n\nCS50 SHOP\n\nhttps://cs50.harvardshop.com/\n\n***\n\nLICENSE\n\nCC BY-NC-SA 4.0\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License\nhttps://creativecommons.org/licenses/by-nc-sa/4.0/\n\nDavid J. Malan\nhttps://cs.harvard.edu/malan\nmalan@harvard.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Nn7EX3zkGUo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Nn7EX3zkGUo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Nn7EX3zkGUo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Nn7EX3zkGUo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Nn7EX3zkGUo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CS50",
+        "playlistId": "PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Nn7EX3zkGUo"
+        },
+        "videoOwnerChannelTitle": "CS50",
+        "videoOwnerChannelId": "UCcabW7890RKJzL968QWEykA"
+      }
+    },
+    {
+      "id": "UExoUWpyQkQyVDM4MHh2RlNVbVRvTU16RVJaM3FCNVVldS5EMEEwRUY5M0RDRTU3NDJC",
+      "kind": "youtube#playlistItem",
+      "snippet": {
+        "publishedAt": "2020-05-11T14:43:27Z",
+        "channelId": "UCcabW7890RKJzL968QWEykA",
+        "title": "CS50W - Lecture 1 - Git",
+        "description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at https://www.youtube.com/playlist?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu.\n\nTABLE OF CONTENTS\n\n00:00:00 - Introduction\n00:00:15 - Git\n00:04:47 - GitHub\n00:14:48 - Commits\n00:27:00 - Merge Conflicts\n00:36:38 - Branching\n\nThis course picks up where Harvard University's CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience. Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. By semester’s end, students emerge with knowledge and experience in principles, languages, and tools that empower them to design and deploy applications on the Internet.\n\n***\n\nThis is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.\n\n***\n\nHOW TO SUBSCRIBE\n\nhttp://www.youtube.com/subscription_center?add_user=cs50tv\n\nHOW TO TAKE CS50\n\nedX: https://cs50.edx.org/\nHarvard Extension School: https://cs50.harvard.edu/extension\nHarvard Summer School: https://cs50.harvard.edu/summer\nOpenCourseWare: https://cs50.harvard.edu/x\n\nHOW TO JOIN CS50 COMMUNITIES\n\nDiscord: https://discord.gg/cs50\nEd: https://cs50.harvard.edu/x/ed\nFacebook Group: https://www.facebook.com/groups/cs50/\nFaceboook Page: https://www.facebook.com/cs50/\nGitHub: https://github.com/cs50\nGitter: https://gitter.im/cs50/x\nInstagram: https://instagram.com/cs50\nLinkedIn Group: https://www.linkedin.com/groups/7437240/\nLinkedIn Page: https://www.linkedin.com/school/cs50/\nMedium: https://cs50.medium.com/\nQuora: https://www.quora.com/topic/CS50\nReddit: https://www.reddit.com/r/cs50/\nSlack: https://cs50.edx.org/slack\nSnapchat: https://www.snapchat.com/add/cs50\nSoundCloud: https://soundcloud.com/cs50\nStack Exchange: https://cs50.stackexchange.com/\nTikTok: https://www.tiktok.com/@cs50\nTwitter: https://twitter.com/cs50\nYouTube: http://www.youtube.com/cs50\n\nHOW TO FOLLOW DAVID J. MALAN\n\nFacebook: https://www.facebook.com/dmalan\nGitHub: https://github.com/dmalan\nInstagram: https://www.instagram.com/davidjmalan/\nLinkedIn: https://www.linkedin.com/in/malan/\nQuora: https://www.quora.com/profile/David-J-Malan\nTikTok: https://www.tiktok.com/@davidjmalan\nTwitter: https://twitter.com/davidjmalan\n\n***\n\nCS50 SHOP\n\nhttps://cs50.harvardshop.com/\n\n***\n\nLICENSE\n\nCC BY-NC-SA 4.0\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License\nhttps://creativecommons.org/licenses/by-nc-sa/4.0/\n\nDavid J. Malan\nhttps://cs.harvard.edu/malan\nmalan@harvard.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NcoBAfJ6l2Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NcoBAfJ6l2Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NcoBAfJ6l2Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NcoBAfJ6l2Q/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NcoBAfJ6l2Q/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CS50",
+        "playlistId": "PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "NcoBAfJ6l2Q"
+        },
+        "videoOwnerChannelTitle": "CS50",
+        "videoOwnerChannelId": "UCcabW7890RKJzL968QWEykA"
+      }
+    },
+    {
+      "id": "UExoUWpyQkQyVDM4MHh2RlNVbVRvTU16RVJaM3FCNVVldS45ODRDNTg0QjA4NkFBNkQy",
+      "kind": "youtube#playlistItem",
+      "snippet": {
+        "publishedAt": "2020-05-11T14:45:48Z",
+        "channelId": "UCcabW7890RKJzL968QWEykA",
+        "title": "CS50W - Lecture 2 - Python",
+        "description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at https://www.youtube.com/playlist?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu.\n\nTABLE OF CONTENTS\n\n00:00:00 - Introduction\n00:00:15 - Python\n00:03:07 - Variables\n00:07:11 - Formatting Strings\n00:08:50 - Conditions\n00:16:26 - Sequences and Loops\n00:35:55 - Functions\n00:38:09 - Modules\n00:41:33 - Object-Oriented Programming\n00:54:43 - Functional Programming\n01:02:30 - Exceptions\n\nThis course picks up where Harvard University's CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience. Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. By semester’s end, students emerge with knowledge and experience in principles, languages, and tools that empower them to design and deploy applications on the Internet.\n\n***\n\nThis is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.\n\n***\n\nHOW TO SUBSCRIBE\n\nhttp://www.youtube.com/subscription_center?add_user=cs50tv\n\nHOW TO TAKE CS50\n\nedX: https://cs50.edx.org/\nHarvard Extension School: https://cs50.harvard.edu/extension\nHarvard Summer School: https://cs50.harvard.edu/summer\nOpenCourseWare: https://cs50.harvard.edu/x\n\nHOW TO JOIN CS50 COMMUNITIES\n\nDiscord: https://discord.gg/cs50\nEd: https://cs50.harvard.edu/x/ed\nFacebook Group: https://www.facebook.com/groups/cs50/\nFaceboook Page: https://www.facebook.com/cs50/\nGitHub: https://github.com/cs50\nGitter: https://gitter.im/cs50/x\nInstagram: https://instagram.com/cs50\nLinkedIn Group: https://www.linkedin.com/groups/7437240/\nLinkedIn Page: https://www.linkedin.com/school/cs50/\nMedium: https://cs50.medium.com/\nQuora: https://www.quora.com/topic/CS50\nReddit: https://www.reddit.com/r/cs50/\nSlack: https://cs50.edx.org/slack\nSnapchat: https://www.snapchat.com/add/cs50\nSoundCloud: https://soundcloud.com/cs50\nStack Exchange: https://cs50.stackexchange.com/\nTikTok: https://www.tiktok.com/@cs50\nTwitter: https://twitter.com/cs50\nYouTube: http://www.youtube.com/cs50\n\nHOW TO FOLLOW DAVID J. MALAN\n\nFacebook: https://www.facebook.com/dmalan\nGitHub: https://github.com/dmalan\nInstagram: https://www.instagram.com/davidjmalan/\nLinkedIn: https://www.linkedin.com/in/malan/\nQuora: https://www.quora.com/profile/David-J-Malan\nTikTok: https://www.tiktok.com/@davidjmalan\nTwitter: https://twitter.com/davidjmalan\n\n***\n\nCS50 SHOP\n\nhttps://cs50.harvardshop.com/\n\n***\n\nLICENSE\n\nCC BY-NC-SA 4.0\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License\nhttps://creativecommons.org/licenses/by-nc-sa/4.0/\n\nDavid J. Malan\nhttps://cs.harvard.edu/malan\nmalan@harvard.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EOLPQdVj5Ac/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EOLPQdVj5Ac/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EOLPQdVj5Ac/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EOLPQdVj5Ac/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EOLPQdVj5Ac/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CS50",
+        "playlistId": "PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "EOLPQdVj5Ac"
+        },
+        "videoOwnerChannelTitle": "CS50",
+        "videoOwnerChannelId": "UCcabW7890RKJzL968QWEykA"
+      }
+    },
+    {
+      "id": "UExoUWpyQkQyVDM4MHh2RlNVbVRvTU16RVJaM3FCNVVldS4zMDg5MkQ5MEVDMEM1NTg2",
+      "kind": "youtube#playlistItem",
+      "snippet": {
+        "publishedAt": "2020-05-11T14:50:06Z",
+        "channelId": "UCcabW7890RKJzL968QWEykA",
+        "title": "CS50W - Lecture 3 - Django",
+        "description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at https://www.youtube.com/playlist?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu.\n\nTABLE OF CONTENTS\n\n00:00:00 - Introduction\n00:00:15 - Web Applications\n00:02:07 - HTTP\n00:04:58 - Django\n00:11:10 - Routes\n00:28:46 - Templates\n00:53:06 - Tasks\n01:00:31 - Forms\n01:32:09 - Sessions\n\nThis course picks up where Harvard University's CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience. Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. By semester’s end, students emerge with knowledge and experience in principles, languages, and tools that empower them to design and deploy applications on the Internet.\n\n***\n\nThis is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.\n\n***\n\nHOW TO SUBSCRIBE\n\nhttp://www.youtube.com/subscription_center?add_user=cs50tv\n\nHOW TO TAKE CS50\n\nedX: https://cs50.edx.org/\nHarvard Extension School: https://cs50.harvard.edu/extension\nHarvard Summer School: https://cs50.harvard.edu/summer\nOpenCourseWare: https://cs50.harvard.edu/x\n\nHOW TO JOIN CS50 COMMUNITIES\n\nDiscord: https://discord.gg/cs50\nEd: https://cs50.harvard.edu/x/ed\nFacebook Group: https://www.facebook.com/groups/cs50/\nFaceboook Page: https://www.facebook.com/cs50/\nGitHub: https://github.com/cs50\nGitter: https://gitter.im/cs50/x\nInstagram: https://instagram.com/cs50\nLinkedIn Group: https://www.linkedin.com/groups/7437240/\nLinkedIn Page: https://www.linkedin.com/school/cs50/\nMedium: https://cs50.medium.com/\nQuora: https://www.quora.com/topic/CS50\nReddit: https://www.reddit.com/r/cs50/\nSlack: https://cs50.edx.org/slack\nSnapchat: https://www.snapchat.com/add/cs50\nSoundCloud: https://soundcloud.com/cs50\nStack Exchange: https://cs50.stackexchange.com/\nTikTok: https://www.tiktok.com/@cs50\nTwitter: https://twitter.com/cs50\nYouTube: http://www.youtube.com/cs50\n\nHOW TO FOLLOW DAVID J. MALAN\n\nFacebook: https://www.facebook.com/dmalan\nGitHub: https://github.com/dmalan\nInstagram: https://www.instagram.com/davidjmalan/\nLinkedIn: https://www.linkedin.com/in/malan/\nQuora: https://www.quora.com/profile/David-J-Malan\nTikTok: https://www.tiktok.com/@davidjmalan\nTwitter: https://twitter.com/davidjmalan\n\n***\n\nCS50 SHOP\n\nhttps://cs50.harvardshop.com/\n\n***\n\nLICENSE\n\nCC BY-NC-SA 4.0\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License\nhttps://creativecommons.org/licenses/by-nc-sa/4.0/\n\nDavid J. Malan\nhttps://cs.harvard.edu/malan\nmalan@harvard.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/w8q0C-C1js4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/w8q0C-C1js4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/w8q0C-C1js4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/w8q0C-C1js4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/w8q0C-C1js4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CS50",
+        "playlistId": "PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "w8q0C-C1js4"
+        },
+        "videoOwnerChannelTitle": "CS50",
+        "videoOwnerChannelId": "UCcabW7890RKJzL968QWEykA"
+      }
+    },
+    {
+      "id": "UExoUWpyQkQyVDM4MHh2RlNVbVRvTU16RVJaM3FCNVVldS41Mzk2QTAxMTkzNDk4MDhF",
+      "kind": "youtube#playlistItem",
+      "snippet": {
+        "publishedAt": "2020-05-11T14:51:13Z",
+        "channelId": "UCcabW7890RKJzL968QWEykA",
+        "title": "CS50W - Lecture 4 - SQL, Models and Migrations",
+        "description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at https://www.youtube.com/playlist?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu.\n\nTABLE OF CONTENTS\n\n00:00:00 - Introduction\n00:00:15 - SQL\n00:08:03 - Tables\n00:14:23 - SQL Queries\n00:30:16 - Joining Tables\n00:49:14 - Django Models\n00:51:34 - Migrations\n00:53:50 - Shell\n01:11:16 - Django Admin\n01:19:09 - Many-to-Many Relationships\n01:40:20 - Users\n\nThis course picks up where Harvard University's CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience. Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. By semester’s end, students emerge with knowledge and experience in principles, languages, and tools that empower them to design and deploy applications on the Internet.\n\n***\n\nThis is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.\n\n***\n\nHOW TO SUBSCRIBE\n\nhttp://www.youtube.com/subscription_center?add_user=cs50tv\n\nHOW TO TAKE CS50\n\nedX: https://cs50.edx.org/\nHarvard Extension School: https://cs50.harvard.edu/extension\nHarvard Summer School: https://cs50.harvard.edu/summer\nOpenCourseWare: https://cs50.harvard.edu/x\n\nHOW TO JOIN CS50 COMMUNITIES\n\nDiscord: https://discord.gg/cs50\nEd: https://cs50.harvard.edu/x/ed\nFacebook Group: https://www.facebook.com/groups/cs50/\nFaceboook Page: https://www.facebook.com/cs50/\nGitHub: https://github.com/cs50\nGitter: https://gitter.im/cs50/x\nInstagram: https://instagram.com/cs50\nLinkedIn Group: https://www.linkedin.com/groups/7437240/\nLinkedIn Page: https://www.linkedin.com/school/cs50/\nMedium: https://cs50.medium.com/\nQuora: https://www.quora.com/topic/CS50\nReddit: https://www.reddit.com/r/cs50/\nSlack: https://cs50.edx.org/slack\nSnapchat: https://www.snapchat.com/add/cs50\nSoundCloud: https://soundcloud.com/cs50\nStack Exchange: https://cs50.stackexchange.com/\nTikTok: https://www.tiktok.com/@cs50\nTwitter: https://twitter.com/cs50\nYouTube: http://www.youtube.com/cs50\n\nHOW TO FOLLOW DAVID J. MALAN\n\nFacebook: https://www.facebook.com/dmalan\nGitHub: https://github.com/dmalan\nInstagram: https://www.instagram.com/davidjmalan/\nLinkedIn: https://www.linkedin.com/in/malan/\nQuora: https://www.quora.com/profile/David-J-Malan\nTikTok: https://www.tiktok.com/@davidjmalan\nTwitter: https://twitter.com/davidjmalan\n\n***\n\nCS50 SHOP\n\nhttps://cs50.harvardshop.com/\n\n***\n\nLICENSE\n\nCC BY-NC-SA 4.0\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License\nhttps://creativecommons.org/licenses/by-nc-sa/4.0/\n\nDavid J. Malan\nhttps://cs.harvard.edu/malan\nmalan@harvard.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YzP164YANAU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YzP164YANAU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YzP164YANAU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/YzP164YANAU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/YzP164YANAU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CS50",
+        "playlistId": "PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "YzP164YANAU"
+        },
+        "videoOwnerChannelTitle": "CS50",
+        "videoOwnerChannelId": "UCcabW7890RKJzL968QWEykA"
+      }
+    },
+    {
+      "id": "UExoUWpyQkQyVDM4MHh2RlNVbVRvTU16RVJaM3FCNVVldS5EQUE1NTFDRjcwMDg0NEMz",
+      "kind": "youtube#playlistItem",
+      "snippet": {
+        "publishedAt": "2020-05-11T14:54:11Z",
+        "channelId": "UCcabW7890RKJzL968QWEykA",
+        "title": "CS50W - Lecture 5 - JavaScript",
+        "description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at https://www.youtube.com/playlist?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu.\n\nTABLE OF CONTENTS\n\n00:00:00 - Introduction\n00:00:15 - JavaScript\n00:05:05 - Events\n00:09:16 - Variables\n00:13:18 - querySelector\n00:22:53 - DOM Manipulation\n01:19:11 - Intervals\n01:21:27 - Local Storage\n01:29:38 - APIs\n\nThis course picks up where Harvard University's CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience. Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. By semester’s end, students emerge with knowledge and experience in principles, languages, and tools that empower them to design and deploy applications on the Internet.\n\n***\n\nThis is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.\n\n***\n\nHOW TO SUBSCRIBE\n\nhttp://www.youtube.com/subscription_center?add_user=cs50tv\n\nHOW TO TAKE CS50\n\nedX: https://cs50.edx.org/\nHarvard Extension School: https://cs50.harvard.edu/extension\nHarvard Summer School: https://cs50.harvard.edu/summer\nOpenCourseWare: https://cs50.harvard.edu/x\n\nHOW TO JOIN CS50 COMMUNITIES\n\nDiscord: https://discord.gg/cs50\nEd: https://cs50.harvard.edu/x/ed\nFacebook Group: https://www.facebook.com/groups/cs50/\nFaceboook Page: https://www.facebook.com/cs50/\nGitHub: https://github.com/cs50\nGitter: https://gitter.im/cs50/x\nInstagram: https://instagram.com/cs50\nLinkedIn Group: https://www.linkedin.com/groups/7437240/\nLinkedIn Page: https://www.linkedin.com/school/cs50/\nMedium: https://cs50.medium.com/\nQuora: https://www.quora.com/topic/CS50\nReddit: https://www.reddit.com/r/cs50/\nSlack: https://cs50.edx.org/slack\nSnapchat: https://www.snapchat.com/add/cs50\nSoundCloud: https://soundcloud.com/cs50\nStack Exchange: https://cs50.stackexchange.com/\nTikTok: https://www.tiktok.com/@cs50\nTwitter: https://twitter.com/cs50\nYouTube: http://www.youtube.com/cs50\n\nHOW TO FOLLOW DAVID J. MALAN\n\nFacebook: https://www.facebook.com/dmalan\nGitHub: https://github.com/dmalan\nInstagram: https://www.instagram.com/davidjmalan/\nLinkedIn: https://www.linkedin.com/in/malan/\nQuora: https://www.quora.com/profile/David-J-Malan\nTikTok: https://www.tiktok.com/@davidjmalan\nTwitter: https://twitter.com/davidjmalan\n\n***\n\nCS50 SHOP\n\nhttps://cs50.harvardshop.com/\n\n***\n\nLICENSE\n\nCC BY-NC-SA 4.0\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License\nhttps://creativecommons.org/licenses/by-nc-sa/4.0/\n\nDavid J. Malan\nhttps://cs.harvard.edu/malan\nmalan@harvard.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x5trGVMKTdY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x5trGVMKTdY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x5trGVMKTdY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/x5trGVMKTdY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/x5trGVMKTdY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CS50",
+        "playlistId": "PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "x5trGVMKTdY"
+        },
+        "videoOwnerChannelTitle": "CS50",
+        "videoOwnerChannelId": "UCcabW7890RKJzL968QWEykA"
+      }
+    },
+    {
+      "id": "UExoUWpyQkQyVDM4MHh2RlNVbVRvTU16RVJaM3FCNVVldS4yMDhBMkNBNjRDMjQxQTg1",
+      "kind": "youtube#playlistItem",
+      "snippet": {
+        "publishedAt": "2021-07-07T20:37:15Z",
+        "channelId": "UCcabW7890RKJzL968QWEykA",
+        "title": "CS50W - Lecture 6 - User Interfaces",
+        "description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at https://www.youtube.com/playlist?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu.\n\nTABLE OF CONTENTS\n\n00:00:00 - Introduction\n00:15:00 - User Interfaces\n00:01:09 - Single Page Applications\n00:19:03 - Scroll\n00:32:21 - Animation\n00:52:37 - React\n\nThis course picks up where Harvard University's CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience. Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. By semester’s end, students emerge with knowledge and experience in principles, languages, and tools that empower them to design and deploy applications on the Internet.\n\n***\n\nThis is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.\n\n***\n\nHOW TO SUBSCRIBE\n\nhttp://www.youtube.com/subscription_center?add_user=cs50tv\n\nHOW TO TAKE CS50\n\nedX: https://cs50.edx.org/\nHarvard Extension School: https://cs50.harvard.edu/extension\nHarvard Summer School: https://cs50.harvard.edu/summer\nOpenCourseWare: https://cs50.harvard.edu/x\n\nHOW TO JOIN CS50 COMMUNITIES\n\nDiscord: https://discord.gg/cs50\nEd: https://cs50.harvard.edu/x/ed\nFacebook Group: https://www.facebook.com/groups/cs50/\nFaceboook Page: https://www.facebook.com/cs50/\nGitHub: https://github.com/cs50\nGitter: https://gitter.im/cs50/x\nInstagram: https://instagram.com/cs50\nLinkedIn Group: https://www.linkedin.com/groups/7437240/\nLinkedIn Page: https://www.linkedin.com/school/cs50/\nMedium: https://cs50.medium.com/\nQuora: https://www.quora.com/topic/CS50\nReddit: https://www.reddit.com/r/cs50/\nSlack: https://cs50.edx.org/slack\nSnapchat: https://www.snapchat.com/add/cs50\nSoundCloud: https://soundcloud.com/cs50\nStack Exchange: https://cs50.stackexchange.com/\nTikTok: https://www.tiktok.com/@cs50\nTwitter: https://twitter.com/cs50\nYouTube: http://www.youtube.com/cs50\n\nHOW TO FOLLOW DAVID J. MALAN\n\nFacebook: https://www.facebook.com/dmalan\nGitHub: https://github.com/dmalan\nInstagram: https://www.instagram.com/davidjmalan/\nLinkedIn: https://www.linkedin.com/in/malan/\nQuora: https://www.quora.com/profile/David-J-Malan\nTikTok: https://www.tiktok.com/@davidjmalan\nTwitter: https://twitter.com/davidjmalan\n\n***\n\nCS50 SHOP\n\nhttps://cs50.harvardshop.com/\n\n***\n\nLICENSE\n\nCC BY-NC-SA 4.0\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License\nhttps://creativecommons.org/licenses/by-nc-sa/4.0/\n\nDavid J. Malan\nhttps://cs.harvard.edu/malan\nmalan@harvard.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jrBhi8wbzPw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jrBhi8wbzPw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jrBhi8wbzPw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jrBhi8wbzPw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jrBhi8wbzPw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CS50",
+        "playlistId": "PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "jrBhi8wbzPw"
+        },
+        "videoOwnerChannelTitle": "CS50",
+        "videoOwnerChannelId": "UCcabW7890RKJzL968QWEykA"
+      }
+    },
+    {
+      "id": "UExoUWpyQkQyVDM4MHh2RlNVbVRvTU16RVJaM3FCNVVldS4yMUQyQTQzMjRDNzMyQTMy",
+      "kind": "youtube#playlistItem",
+      "snippet": {
+        "publishedAt": "2020-05-11T14:57:46Z",
+        "channelId": "UCcabW7890RKJzL968QWEykA",
+        "title": "CS50W - Lecture 7 - Testing and CI/CD",
+        "description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at https://www.youtube.com/playlist?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu.\n\nTABLE OF CONTENTS\n\n00:00:00 - Introduction\n00:00:15 - Testing\n00:01:47 - Assert\n00:15:23 - Unit Testing\n00:21:20 - Django Testing\n00:42:40 - Selenium\n00:57:15 - CI/CD\n01:03:28 - GitHub Actions\n01:18:51 - Docker\n\nThis course picks up where Harvard University's CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience. Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. By semester’s end, students emerge with knowledge and experience in principles, languages, and tools that empower them to design and deploy applications on the Internet.\n\n***\n\nThis is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.\n\n***\n\nHOW TO SUBSCRIBE\n\nhttp://www.youtube.com/subscription_center?add_user=cs50tv\n\nHOW TO TAKE CS50\n\nedX: https://cs50.edx.org/\nHarvard Extension School: https://cs50.harvard.edu/extension\nHarvard Summer School: https://cs50.harvard.edu/summer\nOpenCourseWare: https://cs50.harvard.edu/x\n\nHOW TO JOIN CS50 COMMUNITIES\n\nDiscord: https://discord.gg/cs50\nEd: https://cs50.harvard.edu/x/ed\nFacebook Group: https://www.facebook.com/groups/cs50/\nFaceboook Page: https://www.facebook.com/cs50/\nGitHub: https://github.com/cs50\nGitter: https://gitter.im/cs50/x\nInstagram: https://instagram.com/cs50\nLinkedIn Group: https://www.linkedin.com/groups/7437240/\nLinkedIn Page: https://www.linkedin.com/school/cs50/\nMedium: https://cs50.medium.com/\nQuora: https://www.quora.com/topic/CS50\nReddit: https://www.reddit.com/r/cs50/\nSlack: https://cs50.edx.org/slack\nSnapchat: https://www.snapchat.com/add/cs50\nSoundCloud: https://soundcloud.com/cs50\nStack Exchange: https://cs50.stackexchange.com/\nTikTok: https://www.tiktok.com/@cs50\nTwitter: https://twitter.com/cs50\nYouTube: http://www.youtube.com/cs50\n\nHOW TO FOLLOW DAVID J. MALAN\n\nFacebook: https://www.facebook.com/dmalan\nGitHub: https://github.com/dmalan\nInstagram: https://www.instagram.com/davidjmalan/\nLinkedIn: https://www.linkedin.com/in/malan/\nQuora: https://www.quora.com/profile/David-J-Malan\nTikTok: https://www.tiktok.com/@davidjmalan\nTwitter: https://twitter.com/davidjmalan\n\n***\n\nCS50 SHOP\n\nhttps://cs50.harvardshop.com/\n\n***\n\nLICENSE\n\nCC BY-NC-SA 4.0\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License\nhttps://creativecommons.org/licenses/by-nc-sa/4.0/\n\nDavid J. Malan\nhttps://cs.harvard.edu/malan\nmalan@harvard.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WbRDkJ4lPdY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WbRDkJ4lPdY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WbRDkJ4lPdY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/WbRDkJ4lPdY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/WbRDkJ4lPdY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CS50",
+        "playlistId": "PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "WbRDkJ4lPdY"
+        },
+        "videoOwnerChannelTitle": "CS50",
+        "videoOwnerChannelId": "UCcabW7890RKJzL968QWEykA"
+      }
+    },
+    {
+      "id": "UExoUWpyQkQyVDM4MHh2RlNVbVRvTU16RVJaM3FCNVVldS45RTgxNDRBMzUwRjQ0MDhC",
+      "kind": "youtube#playlistItem",
+      "snippet": {
+        "publishedAt": "2020-05-11T15:00:06Z",
+        "channelId": "UCcabW7890RKJzL968QWEykA",
+        "title": "CS50W - Lecture 8 - Scalability and Security",
+        "description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at https://www.youtube.com/playlist?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu.\n\nTABLE OF CONTENTS\n\n00:00:00 - Introduction\n00:00:15 - Scalability\n00:04:48 - Scaling\n00:07:00 - Load Balancing\n00:18:50 - Autoscaling\n00:23:34 - Scaling Databases\n00:35:16 - Caching\n00:44:48 - Security\n00:47:23 - HTML\n00:52:02 - HTTPS\n01:00:32 - Databases\n01:11:00 - JavaScript\n01:22:11 - What's next?\n\nThis course picks up where Harvard University's CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience. Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. By semester’s end, students emerge with knowledge and experience in principles, languages, and tools that empower them to design and deploy applications on the Internet.\n\n***\n\nThis is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.\n\n***\n\nHOW TO SUBSCRIBE\n\nhttp://www.youtube.com/subscription_center?add_user=cs50tv\n\nHOW TO TAKE CS50\n\nedX: https://cs50.edx.org/\nHarvard Extension School: https://cs50.harvard.edu/extension\nHarvard Summer School: https://cs50.harvard.edu/summer\nOpenCourseWare: https://cs50.harvard.edu/x\n\nHOW TO JOIN CS50 COMMUNITIES\n\nDiscord: https://discord.gg/cs50\nEd: https://cs50.harvard.edu/x/ed\nFacebook Group: https://www.facebook.com/groups/cs50/\nFaceboook Page: https://www.facebook.com/cs50/\nGitHub: https://github.com/cs50\nGitter: https://gitter.im/cs50/x\nInstagram: https://instagram.com/cs50\nLinkedIn Group: https://www.linkedin.com/groups/7437240/\nLinkedIn Page: https://www.linkedin.com/school/cs50/\nMedium: https://cs50.medium.com/\nQuora: https://www.quora.com/topic/CS50\nReddit: https://www.reddit.com/r/cs50/\nSlack: https://cs50.edx.org/slack\nSnapchat: https://www.snapchat.com/add/cs50\nSoundCloud: https://soundcloud.com/cs50\nStack Exchange: https://cs50.stackexchange.com/\nTikTok: https://www.tiktok.com/@cs50\nTwitter: https://twitter.com/cs50\nYouTube: http://www.youtube.com/cs50\n\nHOW TO FOLLOW DAVID J. MALAN\n\nFacebook: https://www.facebook.com/dmalan\nGitHub: https://github.com/dmalan\nInstagram: https://www.instagram.com/davidjmalan/\nLinkedIn: https://www.linkedin.com/in/malan/\nQuora: https://www.quora.com/profile/David-J-Malan\nTikTok: https://www.tiktok.com/@davidjmalan\nTwitter: https://twitter.com/davidjmalan\n\n***\n\nCS50 SHOP\n\nhttps://cs50.harvardshop.com/\n\n***\n\nLICENSE\n\nCC BY-NC-SA 4.0\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License\nhttps://creativecommons.org/licenses/by-nc-sa/4.0/\n\nDavid J. Malan\nhttps://cs.harvard.edu/malan\nmalan@harvard.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6PWTxRGh_dk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6PWTxRGh_dk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6PWTxRGh_dk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6PWTxRGh_dk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/6PWTxRGh_dk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CS50",
+        "playlistId": "PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "6PWTxRGh_dk"
+        },
+        "videoOwnerChannelTitle": "CS50",
+        "videoOwnerChannelId": "UCcabW7890RKJzL968QWEykA"
+      }
+    },
+    {
+      "id": "UExoUWpyQkQyVDM4MHh2RlNVbVRvTU16RVJaM3FCNVVldS40NzZCMERDMjVEN0RFRThB",
+      "kind": "youtube#playlistItem",
+      "snippet": {
+        "publishedAt": "2020-05-11T14:42:17Z",
+        "channelId": "UCcabW7890RKJzL968QWEykA",
+        "title": "CS50W - Lecture 0 - HTML and CSS",
+        "description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at https://www.youtube.com/playlist?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu.\n\nTABLE OF CONTENTS\n\n00:00:00 - Introduction\n00:00:15 - Web Programming\n00:03:41 - HTML\n00:37:14 - CSS\n01:25:06 - Responsive Design\n01:38:21 - Bootstrap\n01:47:54 - Sass\n\nThis course picks up where Harvard University's CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience. Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. By semester’s end, students emerge with knowledge and experience in principles, languages, and tools that empower them to design and deploy applications on the Internet.\n\n***\n\nThis is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.\n\n***\n\nHOW TO SUBSCRIBE\n\nhttp://www.youtube.com/subscription_center?add_user=cs50tv\n\nHOW TO TAKE CS50\n\nedX: https://cs50.edx.org/\nHarvard Extension School: https://cs50.harvard.edu/extension\nHarvard Summer School: https://cs50.harvard.edu/summer\nOpenCourseWare: https://cs50.harvard.edu/x\n\nHOW TO JOIN CS50 COMMUNITIES\n\nDiscord: https://discord.gg/cs50\nEd: https://cs50.harvard.edu/x/ed\nFacebook Group: https://www.facebook.com/groups/cs50/\nFaceboook Page: https://www.facebook.com/cs50/\nGitHub: https://github.com/cs50\nGitter: https://gitter.im/cs50/x\nInstagram: https://instagram.com/cs50\nLinkedIn Group: https://www.linkedin.com/groups/7437240/\nLinkedIn Page: https://www.linkedin.com/school/cs50/\nMedium: https://cs50.medium.com/\nQuora: https://www.quora.com/topic/CS50\nReddit: https://www.reddit.com/r/cs50/\nSlack: https://cs50.edx.org/slack\nSnapchat: https://www.snapchat.com/add/cs50\nSoundCloud: https://soundcloud.com/cs50\nStack Exchange: https://cs50.stackexchange.com/\nTikTok: https://www.tiktok.com/@cs50\nTwitter: https://twitter.com/cs50\nYouTube: http://www.youtube.com/cs50\n\nHOW TO FOLLOW DAVID J. MALAN\n\nFacebook: https://www.facebook.com/dmalan\nGitHub: https://github.com/dmalan\nInstagram: https://www.instagram.com/davidjmalan/\nLinkedIn: https://www.linkedin.com/in/malan/\nQuora: https://www.quora.com/profile/David-J-Malan\nTikTok: https://www.tiktok.com/@davidjmalan\nTwitter: https://twitter.com/davidjmalan\n\n***\n\nCS50 SHOP\n\nhttps://cs50.harvardshop.com/\n\n***\n\nLICENSE\n\nCC BY-NC-SA 4.0\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License\nhttps://creativecommons.org/licenses/by-nc-sa/4.0/\n\nDavid J. Malan\nhttps://cs.harvard.edu/malan\nmalan@harvard.edu",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zFZrkCIc2Oc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zFZrkCIc2Oc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zFZrkCIc2Oc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zFZrkCIc2Oc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zFZrkCIc2Oc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CS50",
+        "playlistId": "PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "zFZrkCIc2Oc"
+        },
+        "videoOwnerChannelTitle": "CS50",
+        "videoOwnerChannelId": "UCcabW7890RKJzL968QWEykA"
+      }
+    }
+  ]
+}

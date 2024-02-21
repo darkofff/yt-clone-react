@@ -1,0 +1,16 @@
+@use "../styles/breakpoints.scss" as b;
+
+.h1 {
+  padding-bottom: 2rem;
+}
+
+.grid {
+  //border: 3px solid red;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+
+  @include b.media(big) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

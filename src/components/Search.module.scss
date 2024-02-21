@@ -1,0 +1,50 @@
+@use "../styles/index.scss" as i;
+
+.inputBox {
+  outline: 0;
+  display: flex;
+  height: 4rem;
+  border-radius: 2rem;
+  border: 1px solid;
+  overflow: hidden;
+  position: relative;
+}
+
+.input {
+  outline: 0;
+  border: none;
+  padding: 1rem;
+  padding-left: 1.5rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  width: 45rem;
+  font-size: 1.8rem;
+  &:focus {
+    padding-left: 3.5rem;
+  }
+}
+
+.searchButton {
+  width: 6rem;
+  outline: 0;
+  border: none;
+  border-left: 1px solid;
+  position: relative;
+}
+
+.magnifier {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2rem;
+  background-color: transparent;
+}
+.magnifierBtn {
+  height: 2.3rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
