@@ -4,9 +4,9 @@ import styles from "./RecommendedVideo.module.scss";
 import { useVideo } from "../context/VideoContext";
 import { scrollToTop } from "../utils/scrollToTop";
 
-function RecommendedVideo({ video }) {
+function RecommendedVideo({ video, setCurrent }) {
   const [searchParams, setSearchParams] = useSearchParams();
-  const { setCurrent } = useVideo();
+  /* const { setCurrent } = useVideo(); */
 
   function handleClick() {
     scrollToTop();

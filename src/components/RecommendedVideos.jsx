@@ -6,7 +6,7 @@ import RecommendedVideo from "./RecommendedVideo";
 import { memo, useEffect } from "react";
 
 function RecommendedVideos() {
-  const { data, currentVideo, fetchRecommendations } = useVideo();
+  const { data, currentVideo, setCurrent, fetchRecommendations } = useVideo();
 
   useEffect(() => {
     fetchRecommendations();
@@ -18,7 +18,13 @@ function RecommendedVideos() {
       {data !== undefined &&
         data.map((video) => {
           if (video.url === currentVideo.url) return null;
-          return <RecommendedVideo video={video} key={video.url} />;
+          return (
+            <RecommendedVideo
+              video={video}
+              setCurrent={setCurrent}
+              key={video.url}
+            />
+          );
         })}
     </div>
   );
