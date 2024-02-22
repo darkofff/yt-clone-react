@@ -1,20 +1,23 @@
 import styles from "./Video.module.scss";
 import { useNavigate } from "react-router-dom";
-
+import { scrollToTop } from "../utils/scrollToTop";
+/* 
 const scrollToTop = () => {
   // Scroll to the top of the page
   window.scrollTo({
     top: 0,
     behavior: "smooth", // Optional: Smooth scrolling animation
   });
-};
+}; */
 
-function Video({ title, thumbnail, url }) {
+function Video({ video, setCurrent, dispatch }) {
   const navigate = useNavigate();
+
+  const { url, title, videoOwnerChannelTitle, thumbnail, publishedAt } = video;
 
   function handleClick() {
     scrollToTop();
-
+    //setCurrent(url);
     navigate(`/watch?v=${url}`);
   }
 
@@ -24,8 +27,13 @@ function Video({ title, thumbnail, url }) {
         <img src={thumbnail} alt="YT-logo"></img>
       </div>
       <div className={styles.statsContainer}>
-        <p className={`${"text"} ${styles.title}`}>{title}</p>
-        <p className="text">STATS</p>
+        <div className={styles.logoContainer}>
+          <img src="Logo.svg" alt="" />
+        </div>
+        <div className={styles.textContainer}>
+          <p className={`${"text"} ${styles.title}`}>{title}</p>
+          <p className="text">{videoOwnerChannelTitle}</p>
+        </div>
       </div>
     </div>
   );

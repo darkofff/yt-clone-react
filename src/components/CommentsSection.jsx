@@ -1,25 +1,30 @@
 import styles from "./CommentsSection.module.scss";
-import { useFetchVideos } from "../hooks/useFetchVideos";
+
+import { memo, useEffect, useMemo } from "react";
 import { useVideo } from "../context/VideoContext";
+import { useSearchParams } from "react-router-dom";
 
 import Comment from "./Comment";
-import { useEffect } from "react";
+import Loader from "./Loader";
 
 function CommentsSection() {
-  const [data] = useFetchVideos("comments");
-  //const { data, fetchComments } = useVideo();
+  const { currentVideo, setCurrent, isLoadingCurrent } = useVideo();
 
-  /* useEffect(() => {
-    fetchComments();
-  }, [fetchComments]);
- */
+  const [searchParams, setSearchParams] = useSearchParams();
+  const search = searchParams.get("v");
+
+  useEffect(() => {
+    setCurrent(search);
+  }, [setCurrent, search]);
+
   return (
     <section className={styles.container}>
-      {data.map((comment) => (
-        <Comment comment={comment} key={comment.id} />
-      ))}
+      {currentVideo.length !== 0 &&
+        currentVideo.comments.map((comment) => (
+          <Comment comment={comment} key={comment.publishedAt} />
+        ))}
     </section>
   );
 }
 
-export default CommentsSection;
+export default memo(CommentsSection);

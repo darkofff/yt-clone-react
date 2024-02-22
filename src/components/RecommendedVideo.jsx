@@ -1,12 +1,17 @@
 import { useSearchParams } from "react-router-dom";
 import styles from "./RecommendedVideo.module.scss";
+
 import { useVideo } from "../context/VideoContext";
+import { scrollToTop } from "../utils/scrollToTop";
 
 function RecommendedVideo({ video }) {
   const [searchParams, setSearchParams] = useSearchParams();
+  const { setCurrent } = useVideo();
 
   function handleClick() {
+    scrollToTop();
     setSearchParams({ v: video.url });
+    setCurrent(video.url);
   }
 
   return (

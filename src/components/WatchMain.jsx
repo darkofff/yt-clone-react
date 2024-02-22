@@ -1,10 +1,11 @@
+import styles from "./WatchMain.module.scss";
+
+import { useState } from "react";
+
 import VideoPlayer from "./VideoPlayer";
 import RecommendedVideos from "./RecommendedVideos";
 import CommentsSection from "./CommentsSection";
 import VideoStats from "./VideoStats";
-
-import styles from "./WatchMain.module.scss";
-import { useState } from "react";
 
 function WatchMain() {
   const [videoPlayerSize, setVideoPLayerSize] = useState("default");
@@ -22,11 +23,13 @@ function WatchMain() {
       <div className={styles.recommendedVideos}>
         <RecommendedVideos />
       </div>
-      <div className={styles.videoStats}>
-        <VideoStats onVideoPlayerSize={handleVideoPlayerSize} />
-      </div>
-      <div className={styles.commentsSection}>
-        <CommentsSection />
+      <div className={styles.videoDetails}>
+        <div /* className={styles.videoStats} */>
+          <VideoStats onVideoPlayerSize={handleVideoPlayerSize} />
+        </div>
+        <div /* className={styles.commentsSection} */>
+          <CommentsSection />
+        </div>
       </div>
     </div>
   );

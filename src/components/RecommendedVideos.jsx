@@ -1,22 +1,27 @@
 import styles from "./RecommendedVideos.module.scss";
-import { useFetchVideos } from "../hooks/useFetchVideos";
+
+import { useVideo } from "../context/VideoContext";
+
 import RecommendedVideo from "./RecommendedVideo";
-import { useSearchParams } from "react-router-dom";
+import { memo, useEffect } from "react";
 
 function RecommendedVideos() {
-  const [data] = useFetchVideos("home");
-  const [searchParams] = useSearchParams();
-  const currUrl = searchParams.get("v");
+  const { data, currentVideo, fetchRecommendations } = useVideo();
+
+  useEffect(() => {
+    fetchRecommendations();
+  }, [fetchRecommendations, currentVideo]);
 
   return (
     <div className={styles.container}>
       <h1 className={styles.h1}>Recommended videos</h1>
-      {data.map((video) => {
-        if (video.url === currUrl) return;
-        return <RecommendedVideo video={video} key={video.url} />;
-      })}
+      {data !== undefined &&
+        data.map((video) => {
+          if (video.url === currentVideo.url) return null;
+          return <RecommendedVideo video={video} key={video.url} />;
+        })}
     </div>
   );
 }
 
-export default RecommendedVideos;
+export default memo(RecommendedVideos);

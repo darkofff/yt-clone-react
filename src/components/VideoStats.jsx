@@ -1,5 +1,6 @@
 import styles from "./VideoStats.module.scss";
 import Switch from "./Switch";
+
 function VideoStats({ onVideoPlayerSize }) {
   return (
     <div className={styles.container}>
