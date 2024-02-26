@@ -6,10 +6,10 @@ import Video from "./Video";
 import { useEffect } from "react";
 
 function VideosGrid() {
-  const { data, isLoading, error, fetchRecommendations, setCurrent, dispatch } =
-    useVideo();
+  const { data, isLoading, error, fetchRecommendations } = useVideo();
 
   useEffect(() => {
+    console.log("FETCH__RECCOM");
     fetchRecommendations();
   }, [fetchRecommendations]);
 
@@ -23,12 +23,7 @@ function VideosGrid() {
       ) : (
         <div className={`${styles.grid} ${"bg-color"}`}>
           {data.map((video) => (
-            <Video
-              video={video}
-              setCurrent={setCurrent}
-              dispatch={dispatch}
-              key={video.id}
-            />
+            <Video video={video} key={video.id} />
           ))}
         </div>
       )}

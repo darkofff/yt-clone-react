@@ -9,8 +9,9 @@ function RecommendedVideos() {
   const { data, currentVideo, setCurrent, fetchRecommendations } = useVideo();
 
   useEffect(() => {
+    console.log("__fetchReccom");
     fetchRecommendations();
-  }, [fetchRecommendations, currentVideo]);
+  }, [fetchRecommendations, currentVideo.id]); // ,currentVideo
 
   return (
     <div className={styles.container}>

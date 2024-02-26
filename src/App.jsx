@@ -5,7 +5,8 @@ import { VideoProvider } from "./context/VideoContext";
 import Main from "./pages/Main";
 import Feed from "./pages/Feed";
 import Watch from "./pages/Watch";
-import Container from "./components/Container";
+import VideosGrid from "./components/VideosGrid";
+import Shorts from "./components/Shorts";
 
 function App() {
   return (
@@ -15,12 +16,19 @@ function App() {
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Main />}>
-                <Route path="/" element={<Feed />}>
-                  <Route path="/" element={<Navigate to="home" />} />
-                  <Route path=":site" element={<Container />} />
+                <Route index element={<Navigate replace to="feed" />} />
+                <Route path="feed" element={<Feed />}>
+                  <Route index element={<Navigate replace to="home" />} />
+                  <Route path="home" element={<VideosGrid />} />
+                  <Route path="shorts" element={<Shorts />} />
+                  <Route
+                    path="/feed/*"
+                    element={<Navigate replace to="home" />}
+                  />
                 </Route>
                 <Route path="watch" element={<Watch />} />
               </Route>
+              <Route path="/*" element={<Navigate replace to="feed" />} />
             </Routes>
           </BrowserRouter>
         </div>
@@ -30,3 +38,5 @@ function App() {
 }
 
 export default App;
+
+//<Route path="/*" element={<Navigate to="/home" />} />

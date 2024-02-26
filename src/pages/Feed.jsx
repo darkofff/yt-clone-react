@@ -1,11 +1,14 @@
 import { Outlet } from "react-router-dom";
+
 import Sidebar from "../components/Sidebar";
 
 function Feed() {
   return (
     <>
       <Sidebar />
-      <Outlet />
+      <div className={`${"main"} ${"bg-color"}`}>
+        <Outlet />
+      </div>
     </>
   );
 }

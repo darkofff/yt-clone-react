@@ -1,18 +1,17 @@
 import styles from "./SideNavElement.module.scss";
 import { useTheme } from "../context/ThemeContext";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
-function SideNavElement({ type }) {
-  const { site } = useParams();
-
+function SideNavElement({ type, currPath }) {
   const { theme } = useTheme();
   const currTheme = theme.split("-")[0];
+
   return (
     <div className={`${styles.el} ${"side-nav-el"}`}>
       <img
         className={styles.img}
-        src={`sidebar/${type}-${currTheme}${
-          site === type ? "-selected" : ""
+        src={`../public/sidebar/${type}-${currTheme}${
+          currPath === type ? "-selected" : ""
         }.svg`}
         alt={type}
       />
@@ -20,9 +19,5 @@ function SideNavElement({ type }) {
     </div>
   );
 }
-
-/* function SideNavElement({ children }) {
-  return <div className={`${styles.el} ${"side-nav-el"}`}>{children}</div>;
-} */
 
 export default SideNavElement;

@@ -14,11 +14,13 @@ function CommentsSection() {
   const search = searchParams.get("v");
 
   useEffect(() => {
+    console.log("__setCurrent");
     setCurrent(search);
   }, [setCurrent, search]);
 
   return (
     <section className={styles.container}>
+      {isLoadingCurrent && <Loader />}
       {currentVideo.length !== 0 &&
         currentVideo.comments.map((comment) => (
           <Comment comment={comment} key={comment.publishedAt} />

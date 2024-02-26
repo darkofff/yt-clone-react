@@ -10,7 +10,7 @@ function VideoPlayer({ size }) {
 
   const navigate = useNavigate();
   useEffect(() => {
-    if (videoUrl === null) navigate("/home");
+    if (videoUrl === null || videoUrl === "") navigate("/home");
   }, [videoUrl, navigate]);
 
   return (

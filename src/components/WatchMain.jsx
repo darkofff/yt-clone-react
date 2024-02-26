@@ -1,6 +1,6 @@
 import styles from "./WatchMain.module.scss";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import VideoPlayer from "./VideoPlayer";
 import RecommendedVideos from "./RecommendedVideos";
@@ -24,10 +24,10 @@ function WatchMain() {
         <RecommendedVideos />
       </div>
       <div className={styles.videoDetails}>
-        <div /* className={styles.videoStats} */>
+        <div>
           <VideoStats onVideoPlayerSize={handleVideoPlayerSize} />
         </div>
-        <div /* className={styles.commentsSection} */>
+        <div>
           <CommentsSection />
         </div>
       </div>
@@ -36,3 +36,15 @@ function WatchMain() {
 }
 
 export default WatchMain;
+
+/* 
+# searchParams:
+  - in CommentsSection and RecommendedVideo (at least)
+  - move them both to WatchMain()
+
+# useVideo 
+  - in CommentsSection
+
+# setCurrent in 
+
+*/

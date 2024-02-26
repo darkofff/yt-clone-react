@@ -1,58 +1,21 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import styles from "./Sidebar.module.scss";
+
 import SideNavElement from "./SideNavElement";
 
 function Sidebar() {
-  /*  
-  <Sidebar/> element accepts
-  only following props 
-  home
-  shorts
-  subscriptions
-  you
-  */
+  const { pathname } = useLocation();
+  const path = pathname.split("/")[2];
   return (
     <aside className={`${styles.sidebar}  ${"bg-color"}`}>
-      <NavLink to="/home">
-        <SideNavElement type="home" />
+      <NavLink to="/feed/home">
+        <SideNavElement type="home" currPath={path} />
       </NavLink>
-      <NavLink to="/shorts">
-        <SideNavElement type="shorts" />
-      </NavLink>
-      <NavLink to="/">
-        <SideNavElement type="shorts" />
-      </NavLink>
-      <NavLink to="/">
-        <SideNavElement type="shorts" />
+      <NavLink to="/feed/shorts">
+        <SideNavElement type="shorts" currPath={path} />
       </NavLink>
     </aside>
   );
 }
-/* function Sidebar() {
-  return (
-    <aside className={`${styles.sidebar} ${"bg-color"}`}>
-      <NavLink to="/home">
-        <SideNavElement>
-          <img className={styles.img} src="home.svg" alt="home" />
-          <p className={`${styles.p} ${"text-color"}`}>Home</p>
-        </SideNavElement>
-      </NavLink>
-      <NavLink to="/">
-        <SideNavElement>
-          <img className={styles.img} src="home.svg" alt="home" />
-          <p className={`${styles.p} ${"text-color"}`}>Shorts</p>
-        </SideNavElement>
-      </NavLink>
-      <SideNavElement>
-        <img className={styles.img} src="home.svg" alt="home" />
-        <p className={`${styles.p} ${"text-color"}`}>Subs</p>
-      </SideNavElement>
-      <SideNavElement>
-        <img className={styles.img} src="home.svg" alt="home" />
-        <p className={`${styles.p} ${"text-color"}`}>You</p>
-      </SideNavElement>
-    </aside>
-  );
-} */
 
 export default Sidebar;
