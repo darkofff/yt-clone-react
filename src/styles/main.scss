@@ -1,4 +1,5 @@
 @use "./index.scss" as i;
+@use "./breakpoints.scss" as b;
 
 * {
   margin: 0;
@@ -21,6 +22,12 @@
   margin-top: 7rem;
   padding-right: 2rem;
   min-height: calc(100vh - 7rem - 1px);
+  @include b.media(mobile) {
+    margin-left: 0rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 .light-mode {

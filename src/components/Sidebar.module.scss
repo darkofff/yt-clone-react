@@ -1,3 +1,4 @@
+@use "../styles/breakpoints.scss" as b;
 .sidebar {
   position: fixed;
   top: 0rem;
@@ -10,6 +11,18 @@
   flex-direction: column;
 
   background-color: transparent;
+
+  @include b.media(mobile) {
+    position: fixed;
+    top: 100%;
+    transform: translateY(-100%);
+    padding: 0.5rem;
+    height: min-content;
+    width: 100%;
+    flex-direction: row;
+    z-index: 10000;
+    justify-content: space-evenly;
+  }
 }
 
 a {

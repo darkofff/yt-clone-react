@@ -7,16 +7,16 @@ import { useSearchParams } from "react-router-dom";
 import Comment from "./Comment";
 import Loader from "./Loader";
 
-function CommentsSection() {
-  const { currentVideo, setCurrent, isLoadingCurrent } = useVideo();
+function CommentsSection({ currentVideo, isLoadingCurrent }) {
+  //const { currentVideo, setCurrent, isLoadingCurrent } = useVideo();
 
-  const [searchParams, setSearchParams] = useSearchParams();
-  const search = searchParams.get("v");
+  /* const [searchParams, setSearchParams] = useSearchParams();
+  const search = searchParams.get("v"); */
 
-  useEffect(() => {
+  /* useEffect(() => {
     console.log("__setCurrent");
     setCurrent(search);
-  }, [setCurrent, search]);
+  }, [setCurrent, search]); */
 
   return (
     <section className={styles.container}>

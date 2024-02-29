@@ -3,13 +3,13 @@ import styles from "./RecommendedVideo.module.scss";
 
 import { scrollToTop } from "../utils/scrollToTop";
 
-function RecommendedVideo({ video, setCurrent }) {
+function RecommendedVideo({ video }) {
   const [searchParams, setSearchParams] = useSearchParams();
 
   function handleClick() {
     scrollToTop();
     setSearchParams({ v: video.url });
-    setCurrent(video.url);
+    
   }
 
   return (

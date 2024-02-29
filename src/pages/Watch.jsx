@@ -5,7 +5,9 @@ function Watch() {
   return (
     <div>
       <Sidebar />
-      <WatchMain />
+      <div className={`${"main"} ${"bg-color"}`}>
+        <WatchMain />
+      </div>
     </div>
   );
 }

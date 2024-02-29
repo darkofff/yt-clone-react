@@ -13,4 +13,13 @@
   @include b.media(big) {
     grid-template-columns: repeat(5, 1fr);
   }
+  @include b.media(tab-land) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @include b.media(tab-port) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include b.media(phone) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

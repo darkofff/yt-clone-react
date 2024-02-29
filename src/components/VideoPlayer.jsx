@@ -1,18 +1,9 @@
 import ReactPlayer from "react-player";
 import styles from "./VideoPlayer.module.scss";
 
-import { useNavigate, useSearchParams } from "react-router-dom";
-import { memo, useEffect } from "react";
+import { memo } from "react";
 
-function VideoPlayer({ size }) {
-  const [searchParams] = useSearchParams();
-  const videoUrl = searchParams.get("v");
-
-  const navigate = useNavigate();
-  useEffect(() => {
-    if (videoUrl === null || videoUrl === "") navigate("/home");
-  }, [videoUrl, navigate]);
-
+function VideoPlayer({ size, videoUrl }) {
   return (
     <div
       className={`${styles["player-container"]} ${

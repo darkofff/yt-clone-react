@@ -1,3 +1,4 @@
+@use "../styles/breakpoints.scss" as b;
 .logo {
   height: 3rem;
 }
@@ -6,4 +7,12 @@
   display: flex;
   align-items: center;
   column-gap: 1rem;
+}
+
+.navDisplay {
+  display: none;
+
+  @include b.media(tab-port) {
+    display: block;
+  }
 }

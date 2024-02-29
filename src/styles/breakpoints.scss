@@ -4,6 +4,11 @@
       @content;
     }
   }
+  @if ($type == mobile) {
+    @media (max-width: 750px) {
+      @content;
+    }
+  }
   @if ($type == tab-port) {
     @media (max-width: 900px) {
       @content;

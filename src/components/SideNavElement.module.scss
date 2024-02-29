@@ -1,3 +1,4 @@
+@use "../styles/breakpoints.scss" as b;
 .el {
   display: flex;
   flex-direction: column;
@@ -5,6 +6,10 @@
   //border: 1px solid magenta;
   padding: 1rem;
   border-radius: 0.7rem;
+
+  @include b.media(mobile) {
+    padding: 0.5rem;
+  }
 }
 
 .img {
