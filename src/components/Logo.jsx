@@ -10,7 +10,7 @@ function Logo() {
       <Link to="home">
         <img
           className={styles.logo}
-          src={`../public/Logo-${themeFormatted}.svg`}
+          src={`Logo-${themeFormatted}.svg`}
           alt="YtLogo"
         />
       </Link>
