@@ -1,3 +1,14 @@
 .container {
-  border: 3px dotted goldenrod;
+  //border: 3px dotted goldenrod;
+  margin-top: 1.5rem;
 }
+
+.title {
+  font-size: 2.5rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+

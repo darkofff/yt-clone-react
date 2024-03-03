@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  column-gap: 0.5rem;
+
+  border-radius: 1rem;
+  padding: 0.1rem;
+  margin-bottom: 0.5rem;
+  max-height: 20rem;
+}
+
+.img_container {
+  width: 40rem;
+  aspect-ratio: 16/9;
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  overflow: hidden;
+}
+.text_container {
+  padding: 1rem;
+  width: 100%;
+}
+
+.img {
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  max-height: 20rem;
+}
+.title {
+  font-weight: 500;
+  font-size: 2.2rem;
+}
+.twoLines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.info {
+}

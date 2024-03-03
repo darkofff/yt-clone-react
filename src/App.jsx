@@ -7,6 +7,8 @@ import Feed from "./pages/Feed";
 import Watch from "./pages/Watch";
 import VideosGrid from "./components/VideosGrid";
 import Shorts from "./components/Shorts";
+import LikedVideos from "./components/LikedVideos";
+import SearchPage from "./pages/SearchPage";
 
 function App() {
   return (
@@ -21,12 +23,14 @@ function App() {
                   <Route index element={<Navigate replace to="home" />} />
                   <Route path="home" element={<VideosGrid />} />
                   <Route path="shorts" element={<Shorts />} />
+                  <Route path="like" element={<LikedVideos />} />
                   <Route
                     path="/feed/*"
                     element={<Navigate replace to="home" />}
                   />
                 </Route>
                 <Route path="watch" element={<Watch />} />
+                <Route path="search" element={<SearchPage />} />
               </Route>
               <Route path="/*" element={<Navigate replace to="feed" />} />
             </Routes>

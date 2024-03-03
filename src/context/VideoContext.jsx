@@ -8,9 +8,10 @@ import {
 
 import { shuffleData } from "../utils/shuffleData";
 
-const BASE_URL = `http://localhost:3000`;
+//const BASE_URL = `http://localhost:3000`;
+const BASE_URL = import.meta.env.VITE_BASE_URL;
 const VideoContext = createContext();
-
+console.log(import.meta.env.VITE_BASE_URL);
 const initialState = {
   data: [],
   isLoading: false,
@@ -61,6 +62,7 @@ function VideoProvider({ children }) {
           id: obj.id,
           videoOwnerChannelTitle: obj.videoOwnerChannelTitle,
           publishedAt: obj.publishedAt,
+          channelImg: obj.details.channelImg,
         };
       });
       const shuffledData = shuffleData(newData.slice());
@@ -70,7 +72,7 @@ function VideoProvider({ children }) {
       console.error(err);
     } finally {
       dispatch({ type: "loading/end" });
-      console.log("newRecom");
+      //console.log("newRecom");
     }
   }, []);
 
@@ -92,7 +94,7 @@ function VideoProvider({ children }) {
       console.error(err);
     } finally {
       dispatch({ type: "loading/endCurr" });
-      console.log("newCurr");
+      //console.log("newCurr");
     }
   }, []);
 

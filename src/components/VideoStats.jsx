@@ -1,17 +1,18 @@
 import styles from "./VideoStats.module.scss";
-import Switch from "./Switch";
 
-function VideoStats({ onVideoPlayerSize }) {
+import VideoDescription from "./VideoDescription";
+import VideoDetails from "./VideoDetails";
+
+function VideoStats({ onVideoPlayerSize, currentVideo }) {
+  if (currentVideo.videoStats === undefined) return null;
   return (
     <div className={styles.container}>
-      <span> Enable theater mode</span>
-      <span>
-        <Switch callback={onVideoPlayerSize} />
-      </span>
-      <h1>likes</h1>
-      <h1>subs</h1>
-      <h1>chanel info</h1>
-      <h1>video description</h1>
+      <h1 className={styles.title}>{currentVideo.title}</h1>
+      <VideoDetails
+        currentVideo={currentVideo}
+        onVideoPlayerSize={onVideoPlayerSize}
+      />
+      <VideoDescription currentVideo={currentVideo} />
     </div>
   );
 }

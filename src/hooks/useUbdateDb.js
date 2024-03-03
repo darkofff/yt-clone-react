@@ -152,6 +152,90 @@ async function testComments() {
   });
 }
 
-async function addChannelDetails() {}
-
 //testComments();
+
+async function addLikesToVideos() {
+  try {
+    const res = await fetch(`${BASE_URL}/items`);
+    const data = await res.json();
+    const dataSliced = data.slice(70, 71);
+    //console.log(dataSliced);
+    dataSliced.forEach(async (obj) => {
+      const url = obj.url;
+      const res1 = await fetch(
+        `https://youtube-v31.p.rapidapi.com/videos?part=contentDetails%2Csnippet%2Cstatistics&id=${url}`,
+        options
+      );
+      const data1 = await res1.json();
+      const videoStats = data1.items.at(0).statistics;
+      //console.log(stats);
+
+      const fullObj = { ...obj, videoStats };
+      console.log(fullObj);
+
+      await fetch(`${BASE_URL}/items/${fullObj.id}`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(fullObj),
+      });
+    });
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+async function fetchChannelDetails() {
+  try {
+    const res = await fetch(`${BASE_URL}/items`);
+    const data = await res.json();
+    const dataSliced = data.slice(70, 71);
+    //console.log(dataSliced);
+
+    dataSliced.forEach(async (obj) => {
+      const url = obj.videoOwnerChannelId;
+
+      const res1 = await fetch(
+        `https://youtube-v31.p.rapidapi.com/channels?part=snippet%2Cstatistics&id=${url}`,
+        options
+      );
+
+      const data1 = await res1.json();
+      const item = data1.items.at(0);
+
+      let channelImg = item.snippet.thumbnails?.high.url;
+      if (channelImg === undefined)
+        channelImg = item.snippet.thumbnails?.medium.url;
+      if (channelImg === undefined)
+        channelImg = item.snippet.thumbnails?.default.url;
+
+      const details = {
+        channelImg,
+        subsCount: item.statistics.subscriberCount,
+      };
+
+      const fullObj = { ...obj, details };
+      console.log(fullObj);
+
+      fetch(`${BASE_URL}/items/${fullObj.id}`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(fullObj),
+      });
+    });
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+// fetchChannelDetails();
+
+/* 
+# CHANEL DETAILS 
+- profile image
+- subs count
+
+*/

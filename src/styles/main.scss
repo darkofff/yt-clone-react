@@ -10,6 +10,16 @@
 :root {
   font-family: sans-serif;
   font-size: 62.5%;
+  pre {
+    font-family: sans-serif;
+  }
+  @include b.media(tab-port) {
+    font-size: 56.25%;
+  }
+  @include b.media(phone) {
+    font-size: 50%;
+  }
+  /*  */
 }
 
 .body {
@@ -43,6 +53,9 @@
   .bg-color-2 {
     background-color: i.$color-white;
   }
+  .bg-color-3 {
+    background-color: i.$color-gray-light-1;
+  }
   .border-color {
     border-color: i.$color-gray-dark-4;
   }
@@ -65,6 +78,14 @@
       background-color: i.$color-gray-light-1;
     }
   }
+  .hover-2 {
+    &:hover {
+      background-color: i.$color-gray-light-2;
+    }
+  }
+  .bg-color-desc {
+    background-color: i.$color-gray-light-1;
+  }
 }
 
 .dark-mode {
@@ -75,19 +96,23 @@
   h4,
   h5,
   h6,
-  span {
+  span,
+  pre {
     color: i.$color-gray-light-1;
   }
   .text-color {
     color: i.$color-gray-light-1;
   }
   .text-secondary-color {
-    color: i.$color-gray-light-1;
+    color: i.$color-gray-dark-4;
   }
   .bg-color {
     background-color: i.$color-gray-dark-1;
   }
   .bg-color-2 {
+    background-color: i.$color-gray-dark-2;
+  }
+  .bg-color-3 {
     background-color: i.$color-gray-dark-2;
   }
   .border-color {
@@ -108,5 +133,13 @@
     &:hover {
       background-color: i.$color-gray-dark-3;
     }
+  }
+  .hover-2 {
+    &:hover {
+      background-color: i.$color-gray-dark-3;
+    }
+  }
+  .bg-color-desc {
+    background-color: i.$color-gray-dark-2;
   }
 }

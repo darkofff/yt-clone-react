@@ -11,8 +11,11 @@ function Sidebar() {
       <NavLink to="/feed/home">
         <SideNavElement type="home" currPath={path} />
       </NavLink>
-      <NavLink to="/feed/shorts">
+      {/* <NavLink to="/feed/shorts">
         <SideNavElement type="shorts" currPath={path} />
+      </NavLink> */}
+      <NavLink to="/feed/like">
+        <SideNavElement type="like" currPath={path} />
       </NavLink>
     </aside>
   );

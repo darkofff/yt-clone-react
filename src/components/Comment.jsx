@@ -4,10 +4,14 @@ function Comment({ comment }) {
   return (
     <div className={styles.container}>
       <div className={styles.containerChild}>
-        <img src={comment.authorProfileImageUrl} alt="profile-pic" />
+        <img
+          src={comment.authorProfileImageUrl}
+          alt="profile-pic"
+          loading="lazy"
+        />
       </div>
       <div className={styles.containerChild}>
-        <p className={styles.text}>{comment.textOriginal}</p>
+        <pre className={styles.text}>{comment.textOriginal}</pre>
       </div>
     </div>
   );

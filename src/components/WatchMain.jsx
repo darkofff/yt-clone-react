@@ -8,6 +8,7 @@ import VideoPlayer from "./VideoPlayer";
 import RecommendedVideos from "./RecommendedVideos";
 import CommentsSection from "./CommentsSection";
 import VideoStats from "./VideoStats";
+import Spinner from "./Spinner";
 
 function WatchMain() {
   const [videoPlayerSize, setVideoPLayerSize] = useState("default");
@@ -21,6 +22,7 @@ function WatchMain() {
     currentVideo,
     setCurrent,
     fetchRecommendations,
+    isLoading,
     isLoadingCurrent,
   } = useVideo();
 
@@ -34,7 +36,7 @@ function WatchMain() {
   function handleVideoPlayerSize() {
     setVideoPLayerSize((size) => (size === "default" ? "theater" : "default"));
   }
-
+  if (isLoading || isLoadingCurrent) return <Spinner />;
   return (
     <div className={` ${styles[`main-${videoPlayerSize}`]}`}>
       <div className={styles.videoPlayer}>
@@ -49,7 +51,10 @@ function WatchMain() {
       </div>
       <div className={styles.videoDetails}>
         <div>
-          <VideoStats onVideoPlayerSize={handleVideoPlayerSize} />
+          <VideoStats
+            onVideoPlayerSize={handleVideoPlayerSize}
+            currentVideo={currentVideo}
+          />
         </div>
         <div>
           <CommentsSection

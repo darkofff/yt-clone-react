@@ -1,15 +1,15 @@
 import styles from "./VideosGrid.module.scss";
 
 import { useVideo } from "../context/VideoContext";
+import { useEffect } from "react";
 
 import Video from "./Video";
-import { useEffect } from "react";
+import Spinner from "./Spinner";
 
 function VideosGrid() {
   const { data, isLoading, error, fetchRecommendations } = useVideo();
 
   useEffect(() => {
-    console.log("FETCH__RECCOM");
     fetchRecommendations();
   }, [fetchRecommendations]);
 
@@ -19,7 +19,7 @@ function VideosGrid() {
         <h1 className={styles.h1}>Recomended Videos</h1>
       </header>
       {isLoading ? (
-        <p>Loading...</p>
+        <Spinner />
       ) : (
         <div className={`${styles.grid} ${"bg-color"}`}>
           {data.map((video) => (

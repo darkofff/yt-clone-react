@@ -1,18 +1,7 @@
 function Shorts() {
   return (
     <div>
-      <h1>SHORts</h1>
-      <h1>SHORts</h1>
-      <h1>SHORts</h1>
-      <h1>SHORts</h1>
-      <h1>SHORts</h1>
-      <h1>SHORts</h1>
-      <h1>SHORts</h1>
-      <h1>SHORts</h1>
-      <h1>SHORts</h1>
-      <h1>SHORts</h1>
-      <h1>SHORts</h1>
-      <h1>SHORts</h1>
+      <h1>Shorts unavailable yet </h1>
     </div>
   );
 }

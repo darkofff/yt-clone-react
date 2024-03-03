@@ -1,26 +1,12 @@
 import styles from "./CommentsSection.module.scss";
 
-import { memo, useEffect, useMemo } from "react";
-import { useVideo } from "../context/VideoContext";
-import { useSearchParams } from "react-router-dom";
+import { memo } from "react";
 
 import Comment from "./Comment";
-import Loader from "./Loader";
 
 function CommentsSection({ currentVideo, isLoadingCurrent }) {
-  //const { currentVideo, setCurrent, isLoadingCurrent } = useVideo();
-
-  /* const [searchParams, setSearchParams] = useSearchParams();
-  const search = searchParams.get("v"); */
-
-  /* useEffect(() => {
-    console.log("__setCurrent");
-    setCurrent(search);
-  }, [setCurrent, search]); */
-
   return (
     <section className={styles.container}>
-      {isLoadingCurrent && <Loader />}
       {currentVideo.length !== 0 &&
         currentVideo.comments.map((comment) => (
           <Comment comment={comment} key={comment.publishedAt} />
