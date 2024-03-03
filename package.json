@@ -8,12 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "server": "json-server --watch server/db.json",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "server": "json-server --watch server/db.json"
   },
-  "homepage": "https://darkofff.github.io/yt-clone-react/",
-  
   "dependencies": {
     "json-server": "^1.0.0-alpha.23",
     "react": "^18.2.0",
