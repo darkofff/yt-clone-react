@@ -42,9 +42,9 @@ function VideoDetails({ currentVideo, onVideoPlayerSize }) {
               className={styles.likeImg}
               src={
                 isLiked === 1
-                  ? `../../public/likes/like-${themeFormated}-selected.svg`
+                  ? `/likes/like-${themeFormated}-selected.svg`
                   : (isLiked === 0 || isLiked === -1) &&
-                    `../../public/likes/like-${themeFormated}.svg`
+                    `/likes/like-${themeFormated}.svg`
               }
               alt="like button"
             />
