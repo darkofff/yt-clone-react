@@ -9,9 +9,7 @@ function RecommendedVideo({ video }) {
   function handleClick() {
     scrollToTop();
     setSearchParams({ v: video.url });
-    
   }
-
   return (
     <div className={`${styles.container} ${"hover-1"}`} onClick={handleClick}>
       <div className={styles.img_container}>
@@ -22,7 +20,9 @@ function RecommendedVideo({ video }) {
           <h1 className={styles.title}>{video.title}</h1>
         </div>
         <div>
-          <p className={styles.info}>{video.url}</p>
+          <p className={`${styles.info} ${"text-secondary-color"}`}>
+            {video.videoOwnerChannelTitle}
+          </p>
         </div>
       </div>
     </div>

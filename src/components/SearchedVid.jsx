@@ -1,20 +1,25 @@
-import styles from "./LikedVid.module.scss";
-import { useNavigate } from "react-router-dom";
-function LikedVid({ video }) {
-  const navigate = useNavigate();
+import styles from "./SearchedVid.module.scss";
 
+function SearchedVid({ video }) {
   const {
-    channelImg,
     id,
-    publishedAt,
-    thumbnail,
-    title,
-    url,
-    videoOwnerChannelTitle,
+    snippet: {
+      channelId,
+      channelTitle,
+      description,
+      publishedAt,
+      thumbnails,
+      title,
+    },
   } = video;
-  function handleClick() {
-    navigate(`/watch?v=${url}`);
-  }
+
+  const thumbnail = thumbnails?.high.url
+    ? thumbnails.high.url
+    : thumbnails?.medium.url
+    ? thumbnails.medium.url
+    : thumbnails.default.url;
+
+  function handleClick() {}
   return (
     <div className={`${styles.container} ${"hover-1"}`} onClick={handleClick}>
       <div className={styles.img_container}>
@@ -26,7 +31,7 @@ function LikedVid({ video }) {
         </div>
         <div>
           <p className={`${styles.info} ${"text-secondary-color"}`}>
-            {videoOwnerChannelTitle}
+            {channelTitle}
           </p>
         </div>
       </div>
@@ -34,4 +39,4 @@ function LikedVid({ video }) {
   );
 }
 
-export default LikedVid;
+export default SearchedVid;

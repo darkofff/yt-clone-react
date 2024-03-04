@@ -20,9 +20,11 @@ function LikedVideos() {
     fetchRecommendations();
   }, [fetchRecommendations]);
   console.log(data.filter((vid) => likedVideos.includes(vid.id)));
+
   if (isLoading) return <Spinner />;
+
   return (
-    <div>
+    <div className={styles.likesContainer}>
       {likedVideos.length === 0 && (
         <div className={styles.emptyMessage}>
           <h1>Wow so empty. Like some videos to fill this place up!</h1>
@@ -31,9 +33,9 @@ function LikedVideos() {
       {likedVideos.length !== 0 && (
         <div>
           {/* <h1>LIKED VIDS SUMMARY</h1> */}
-          <h1 styles={{ paddingBottom: "100px", color: "red" }}>
-            Liked Videos
-          </h1>
+          <div className={styles.titleContainer}>
+            <h1>Liked Videos</h1>
+          </div>
           {data
             .filter((vid) => likedVideos.includes(vid.id))
             .map((vid, i) => (

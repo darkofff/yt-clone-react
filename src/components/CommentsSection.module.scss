@@ -10,3 +10,18 @@
   flex-direction: column;
   row-gap: 1rem;
 }
+.message {
+  font-weight: 700;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.showLess {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: all 0.3s;
+  border: 1px solid;
+}
