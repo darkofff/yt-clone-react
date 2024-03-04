@@ -1,8 +1,13 @@
+@use "../styles/breakpoints.scss" as b;
+
 .switch {
   position: relative;
   display: inline-block;
   width: 60px;
   height: 34px;
+  @include b.media(tab-land) {
+    display: none;
+  }
 }
 
 /* Hide default HTML checkbox */

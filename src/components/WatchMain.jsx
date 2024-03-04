@@ -68,15 +68,3 @@ function WatchMain() {
 }
 
 export default WatchMain;
-
-/* 
-# searchParams:
-  - in CommentsSection and RecommendedVideo (at least)
-  - move them both to WatchMain()
-
-# useVideo 
-  - in CommentsSection
-
-# setCurrent in 
-
-*/

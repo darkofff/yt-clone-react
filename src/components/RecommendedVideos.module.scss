@@ -1,6 +1,11 @@
+@use "../styles/breakpoints.scss" as b;
+
 .container {
   padding: 1px;
   width: 380px;
+  @include b.media(tab-port) {
+    width: 100%;
+  }
 }
 
 .h1 {

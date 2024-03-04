@@ -24,32 +24,4 @@ function Switch({ callback }) {
   );
 }
 
-/* function ThemeSwitch() {
-  const [isChecked, setIsChecked] = useState(false);
-
-  const { setTheme } = useTheme();
-
-  function handleIsChecked(e) {
-    setIsChecked((v) => !v);
-
-    if (e.target.checked === false) {
-      setTheme("light-mode");
-    } else {
-      setTheme("dark-mode");
-    }
-  }
-
-  return (
-    <label className={styles.switch}>
-      <input
-        type="checkbox"
-        className={styles.input}
-        checked={isChecked}
-        onChange={handleIsChecked}
-      />
-      <span className={styles.slider}></span>
-    </label>
-  );
-} */
-
 export default Switch;

@@ -1,3 +1,5 @@
+@use "../styles/breakpoints.scss" as b;
+
 .stats {
   display: flex;
   justify-content: space-between;
@@ -82,4 +84,7 @@
 .tm {
   font-size: 1.3rem;
   font-weight: 700;
+  @include b.media(tab-land) {
+    display: none;
+  }
 }

@@ -59,7 +59,6 @@ function VideoDetails({ currentVideo, onVideoPlayerSize }) {
           >
             <img
               className={styles.likeImg}
-              /* src="../../public/likes/dislike-${themeFormated}.svg" */
               src={
                 isLiked === -1
                   ? `/likes/dislike-${themeFormated}-selected.svg`
