@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-
 import styles from "./ThemeSwitch.module.scss";
 import { useTheme } from "../context/ThemeContext";
 

@@ -48,7 +48,7 @@ function Search() {
       {!!isInputFocused && (
         <img
           className={`${styles.magnifier} `}
-          src={`../public/${
+          src={`/${
             theme === "light-mode"
               ? "magnifier-light.svg"
               : "magnifier-dark.svg"
@@ -75,7 +75,7 @@ function Search() {
       >
         <img
           className={`${styles.magnifierBtn} `}
-          src={`../public/${
+          src={`/${
             theme === "light-mode"
               ? "magnifier-light.svg"
               : "magnifier-dark.svg"

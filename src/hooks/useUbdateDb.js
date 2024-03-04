@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 const BASE_URL = `http://localhost:3000`;
 
 const URL_CS_50 =

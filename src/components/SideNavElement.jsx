@@ -9,7 +9,7 @@ function SideNavElement({ type, currPath }) {
     <div className={`${styles.el} ${"side-nav-el"}`}>
       <img
         className={styles.img}
-        src={`../public/sidebar/${type}-${currTheme}${
+        src={`/sidebar/${type}-${currTheme}${
           currPath === type ? "-selected" : ""
         }.svg`}
         alt={type}
