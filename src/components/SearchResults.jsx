@@ -13,6 +13,7 @@ function SearchResults() {
   return (
     <div className={styles.container}>
       <h1>SEARCH RESULTS</h1>
+      <h1>Póki co nie ma funkcji wyszukiwania ale niedługo będzie</h1>
     </div>
   );
 }

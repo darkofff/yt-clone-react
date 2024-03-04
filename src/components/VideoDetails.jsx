@@ -62,9 +62,9 @@ function VideoDetails({ currentVideo, onVideoPlayerSize }) {
               /* src="../../public/likes/dislike-${themeFormated}.svg" */
               src={
                 isLiked === -1
-                  ? `../../public/likes/dislike-${themeFormated}-selected.svg`
+                  ? `/likes/dislike-${themeFormated}-selected.svg`
                   : (isLiked === 0 || isLiked === 1) &&
-                    `../../public/likes/dislike-${themeFormated}.svg`
+                    `/likes/dislike-${themeFormated}.svg`
               }
               alt="like button"
             />
