@@ -1,5 +1,7 @@
-import { useState } from "react";
 import styles from "./VideoDescription.module.scss";
+
+import { useState } from "react";
+import { formatNumber } from "../utils/formatNumber";
 
 export default function VideoDescription({ currentVideo }) {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -14,7 +16,8 @@ export default function VideoDescription({ currentVideo }) {
     <div className={`${styles.videoDescription} ${"bg-color-desc"}`}>
       <div className={styles.statsContainer}>
         <p className={styles.stats}>
-          {currentVideo.videoStats.viewCount} views {year}-{month}-{day}{" "}
+          {formatNumber(currentVideo.videoStats.viewCount)} views {year}-{month}
+          -{day}{" "}
         </p>
       </div>
       {isExpanded ? (

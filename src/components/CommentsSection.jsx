@@ -11,7 +11,6 @@ function CommentsSection({ currentVideo, isLoadingCurrent }) {
   useEffect(() => {
     function callback() {
       setScreenWidth(window.innerWidth);
-      console.log(screenWidth);
     }
 
     window.addEventListener("resize", callback);
@@ -20,18 +19,18 @@ function CommentsSection({ currentVideo, isLoadingCurrent }) {
       window.removeEventListener("resize", callback);
     };
   }, [screenWidth]);
-  console.log(screenWidth);
+
   return (
     <section className={styles.container}>
       {currentVideo.length !== 0 &&
         (screenWidth >= 900 ? (
-          currentVideo.comments.map((comment) => (
-            <Comment comment={comment} key={comment.publishedAt} />
+          currentVideo.comments.map((comment, index) => (
+            <Comment comment={comment} key={index} />
           ))
         ) : isExpanded ? (
           <div>
-            {currentVideo.comments.map((comment) => (
-              <Comment comment={comment} key={comment.publishedAt} />
+            {currentVideo.comments.map((comment, index) => (
+              <Comment comment={comment} key={index} />
             ))}
             <div
               className={`${styles.showLess} ${"hover-1"} ${"border-color "}`}
@@ -46,13 +45,20 @@ function CommentsSection({ currentVideo, isLoadingCurrent }) {
             onClick={() => setIsExpanded((v) => !v)}
           >
             <div>
-              <h1>Comments: {currentVideo.comments.length} </h1>
+              <h1>No comments yet </h1>
             </div>
-            <Comment
-              comment={currentVideo.comments.at(0)}
-              key={currentVideo.id.at(0)}
-            />
-            <p className={styles.message}>...read more</p>
+            {currentVideo.comments.length !== 0 && (
+              <>
+                <div>
+                  <h1>Comments: {currentVideo.videoStats.commentCount} </h1>
+                </div>
+                <Comment
+                  comment={currentVideo.comments.at(0)}
+                  key={currentVideo.id.at(0)}
+                />
+                <p className={styles.message}>...read more</p>
+              </>
+            )}
           </div>
         ))}
     </section>

@@ -17,7 +17,9 @@ function RecommendedVideo({ video }) {
       </div>
       <div className={styles.text_container}>
         <div>
-          <h1 className={styles.title}>{video.title}</h1>
+          <h1 className={`${styles.title} ${styles.twoLines}`}>
+            {video.title}
+          </h1>
         </div>
         <div>
           <p className={`${styles.info} ${"text-secondary-color"}`}>

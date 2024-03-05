@@ -24,4 +24,9 @@
       @content;
     }
   }
+  @if ($type == huge) {
+    @media (min-width: 2160px) {
+      @content;
+    }
+  }
 }

@@ -2,14 +2,19 @@
 
 .container {
   padding: 1px;
-  width: 380px;
+  min-width: 30rem;
+  max-width: 40rem;
   @include b.media(tab-port) {
-    width: 100%;
+    max-width: none;
+  }
+  @include b.media(big) {
+    max-width: 45rem;
+  }
+  @include b.media(huge) {
+    max-width: none;
   }
 }
 
 .h1 {
   margin-bottom: 1rem;
 }
-
-//Non-Serializable Props in Next.js

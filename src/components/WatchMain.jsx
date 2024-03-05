@@ -25,12 +25,16 @@ function WatchMain() {
     isLoading,
     isLoadingCurrent,
   } = useVideo();
-
+  //console.log(currentVideo);
   const navigate = useNavigate();
   useEffect(() => {
     if (videoUrl === null || videoUrl === "") navigate("/home");
     fetchRecommendations();
     setCurrent(videoUrl);
+    //console.log(currentVideo);
+    /* if (currentVideo === undefined) {
+      console.log("aaa");
+    } */
   }, [videoUrl, navigate, fetchRecommendations, setCurrent]);
 
   function handleVideoPlayerSize() {

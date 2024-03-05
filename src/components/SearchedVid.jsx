@@ -1,8 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import styles from "./SearchedVid.module.scss";
 
 function SearchedVid({ video }) {
+  const navigate = useNavigate();
   const {
-    id,
+    id: { videoId: url },
     snippet: {
       channelId,
       channelTitle,
@@ -18,8 +20,10 @@ function SearchedVid({ video }) {
     : thumbnails?.medium.url
     ? thumbnails.medium.url
     : thumbnails.default.url;
-
-  function handleClick() {}
+  console.log(video);
+  function handleClick() {
+    navigate(`/watch?v=${url}`);
+  }
   return (
     <div className={`${styles.container} ${"hover-1"}`} onClick={handleClick}>
       <div className={styles.img_container}>
@@ -27,7 +31,7 @@ function SearchedVid({ video }) {
       </div>
       <div className={styles.text_container}>
         <div>
-          <h1 className={`${styles.title} ${styles.twoLines}`}>{title}</h1>
+          <p className={`${styles.title} ${styles.twoLines}`}>{title}</p>
         </div>
         <div>
           <p className={`${styles.info} ${"text-secondary-color"}`}>

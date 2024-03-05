@@ -9,7 +9,7 @@ function RecommendedVideos({ data, currentVideo }) {
       <h1 className={styles.h1}>Recommended videos</h1>
       {data !== undefined &&
         data.map((video) => {
-          if (video.url === currentVideo.url) return null;
+          if (video.url === currentVideo?.url) return null;
           return <RecommendedVideo video={video} key={video.url} />;
         })}
     </div>

@@ -1,6 +1,7 @@
 import styles from "./VideoDetails.module.scss";
 
 import { useTheme } from "../context/ThemeContext";
+import { formatNumber } from "../utils/formatNumber";
 
 import Switch from "./Switch";
 import useLikesLocalStorage from "../hooks/useLikesLocalStorage";
@@ -28,7 +29,7 @@ function VideoDetails({ currentVideo, onVideoPlayerSize }) {
         <div className={styles.channelDetails}>
           <p className={styles.title}>{currentVideo.videoOwnerChannelTitle}</p>
           <h1 className={`${styles.subCount} ${"text-secondary-color "}`}>
-            {currentVideo.details.subsCount} subscribers{" "}
+            {formatNumber(currentVideo.details.subsCount)} subscribers
           </h1>
         </div>
       </div>
@@ -49,7 +50,7 @@ function VideoDetails({ currentVideo, onVideoPlayerSize }) {
               alt="like button"
             />
             <p className={styles.likeCount}>
-              {currentVideo.videoStats.likeCount}
+              {formatNumber(currentVideo.videoStats.likeCount)}
             </p>
           </div>
           <div className={`${styles.separator} `}></div>

@@ -1,6 +1,7 @@
 import styles from "./Comment.module.scss";
 
 function Comment({ comment }) {
+  //console.log(comment);
   return (
     <div className={styles.container}>
       <div className={styles.containerChild}>
