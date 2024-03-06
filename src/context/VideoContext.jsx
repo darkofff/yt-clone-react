@@ -60,7 +60,6 @@ function VideoProvider({ children }) {
       const res = await fetch(`${BASE_URL}/items`);
       if (!res.ok) throw new Error("Couldn't fetch data");
       const data = await res.json();
-      //console.log(data);
       const newData = data.map((obj) => {
         return {
           title: obj.title,
@@ -79,7 +78,6 @@ function VideoProvider({ children }) {
       console.error(err);
     } finally {
       dispatch({ type: "loading/end" });
-      //console.log("newRecom");
     }
   }, []);
 
@@ -150,7 +148,6 @@ function VideoProvider({ children }) {
         };
 
         // CHANNEL DATA FETCH END
-
         // VIDEO COMMENTS FETCH START
 
         const commentsRes = await fetch(
@@ -161,9 +158,7 @@ function VideoProvider({ children }) {
         const commentsData = await commentsRes.json();
         let comments;
 
-        console.log(commentsData);
-        if (commentsRes.ok) {
-          console.log("how???");
+        if (!commentsData.error) {
           comments = commentsData.items.map((item) => {
             return {
               id: item.id,
@@ -191,13 +186,11 @@ function VideoProvider({ children }) {
           details: channelDataObj,
           comments,
         };
-        console.log(ultimateObj);
         dispatch({ type: "current", payload: ultimateObj });
       } else {
         dispatch({ type: "current", payload: videoObjTemp[0] });
       }
     } catch (err) {
-      //setError("Error occured while fetching data");
       console.error(err);
     } finally {
       dispatch({ type: "loading/endCurr" });

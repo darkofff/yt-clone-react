@@ -1,7 +1,8 @@
-import ReactPlayer from "react-player";
 import styles from "./VideoPlayer.module.scss";
 
 import { memo } from "react";
+
+import ReactPlayer from "react-player";
 
 function VideoPlayer({ size, videoUrl }) {
   return (
@@ -10,6 +11,8 @@ function VideoPlayer({ size, videoUrl }) {
         styles[`player-container-${size}`]
       }`}
     >
+      
+
       <div
         className={`${styles["player-wrapper"]} ${
           styles[`player-wrapper-${size}`]

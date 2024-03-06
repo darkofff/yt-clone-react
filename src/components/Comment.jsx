@@ -12,6 +12,9 @@ function Comment({ comment }) {
         />
       </div>
       <div className={styles.containerChild}>
+        <div className={styles.authorBox}>
+          <p className={styles.author}>{comment.authorDisplayName}</p>
+        </div>
         <pre className={styles.text}>{comment.textOriginal}</pre>
       </div>
     </div>

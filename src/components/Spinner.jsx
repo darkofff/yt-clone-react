@@ -7,6 +7,7 @@ function Spinner() {
 
   return (
     <div className={styles.spinnerContainer}>
+      
       <div
         className={
           theme === "dark-mode"

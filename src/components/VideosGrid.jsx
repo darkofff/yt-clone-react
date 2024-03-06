@@ -19,7 +19,17 @@ function VideosGrid() {
         <h1 className={styles.h1}>Recomended Videos</h1>
       </header>
       {isLoading ? (
-        <Spinner />
+        <div className={styles.loading}>
+          <Spinner />
+          <h1 className={styles.loadingMessage}>
+            Please be patient. First loading may take time up to a minute due to
+            poor hosting.
+          </h1>
+          <h1 className={styles.loadingMessage}>
+            Prosimy o cierpliwość. Ładowanie - szczególnie pierwsze - może zająć
+            około minuty.
+          </h1>
+        </div>
       ) : (
         <div className={`${styles.grid} ${"bg-color"}`}>
           {data.map((video) => (

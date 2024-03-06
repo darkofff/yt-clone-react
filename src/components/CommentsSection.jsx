@@ -44,9 +44,11 @@ function CommentsSection({ currentVideo, isLoadingCurrent }) {
             className={`${styles.collapsedContainer} ${"bg-color-2"}`}
             onClick={() => setIsExpanded((v) => !v)}
           >
-            <div>
-              <h1>No comments yet </h1>
-            </div>
+            {currentVideo.comments.length === 0 && (
+              <div>
+                <h1>No comments yet </h1>
+              </div>
+            )}
             {currentVideo.comments.length !== 0 && (
               <>
                 <div>

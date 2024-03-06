@@ -9,6 +9,7 @@ import RecommendedVideos from "./RecommendedVideos";
 import CommentsSection from "./CommentsSection";
 import VideoStats from "./VideoStats";
 import Spinner from "./Spinner";
+import Lorem from "./Lorem";
 
 function WatchMain() {
   const [videoPlayerSize, setVideoPLayerSize] = useState("default");
@@ -25,16 +26,12 @@ function WatchMain() {
     isLoading,
     isLoadingCurrent,
   } = useVideo();
-  //console.log(currentVideo);
+
   const navigate = useNavigate();
   useEffect(() => {
     if (videoUrl === null || videoUrl === "") navigate("/home");
     fetchRecommendations();
     setCurrent(videoUrl);
-    //console.log(currentVideo);
-    /* if (currentVideo === undefined) {
-      console.log("aaa");
-    } */
   }, [videoUrl, navigate, fetchRecommendations, setCurrent]);
 
   function handleVideoPlayerSize() {
@@ -66,6 +63,7 @@ function WatchMain() {
             isLoadingCurrent={isLoadingCurrent}
           />
         </div>
+        <Lorem />
       </div>
     </div>
   );

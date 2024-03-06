@@ -1,6 +1,7 @@
 import styles from "./Search.module.scss";
-import { useTheme } from "../context/ThemeContext";
 
+import { useTheme } from "../context/ThemeContext";
+import { scrollToTop } from "../utils/scrollToTop";
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -37,6 +38,7 @@ function Search() {
 
   function submitForm(e) {
     e.preventDefault();
+    scrollToTop();
     navigate(`/search?q=${inputValue}`);
   }
 
