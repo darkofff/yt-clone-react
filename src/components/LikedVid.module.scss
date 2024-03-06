@@ -1,3 +1,4 @@
+@use "../styles/breakpoints.scss" as b;
 .container {
   display: flex;
   column-gap: 0.5rem;
@@ -6,6 +7,11 @@
   padding: 0.1rem;
   margin-bottom: 0.5rem;
   max-height: 20rem;
+
+  @include b.media(phone) {
+    flex-direction: column;
+    max-height: none;
+  }
 }
 
 .img_container {
@@ -14,6 +20,9 @@
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
+  @include b.media(phone) {
+    width: 100%;
+  }
 }
 .text_container {
   padding: 1rem;
